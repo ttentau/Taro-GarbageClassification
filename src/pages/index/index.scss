@@ -1,0 +1,358 @@
+.pages {
+    height: 100%;
+}
+
+.home {
+    //height: 100%;
+
+    .recoverable {
+        height: 100%;
+
+        .header {
+            display: flex;
+            padding: 20px;
+
+            .logo-ctn {
+                color: white;
+                font-size: 20px;
+                width: 160px;
+                height: 160px;
+                padding: 20px;
+                background: #136ec2;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+
+                Image {
+                    //width: 60%;
+                    //height: 60%;
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .english {
+                    font-size: 14px;
+                }
+            }
+
+            .desc-ctn {
+                color: #136ec2;
+                font-size: 28px;
+                width: calc(100% - 200px);
+                padding: 0 20px;
+
+                .title {
+                    margin-bottom: 10px;
+                    font-size: 34px;
+                }
+            }
+        }
+
+        .content {
+            .claim {
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background: #136ec2;
+                font-size: 34px;
+                padding: 20px;
+            }
+
+            .detail {
+                font-size: 30px;
+                padding: 10px;
+                color: #136ec2;
+            }
+        }
+    }
+
+    .harmful-waste {
+        .header {
+            display: flex;
+            padding: 20px;
+
+            .logo-ctn {
+                color: white;
+                font-size: 20px;
+                width: 160px;
+                height: 160px;
+                padding: 20px;
+                background: #e43122;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+
+                Image {
+                    //width: 60%;
+                    //height: 60%;
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .english {
+                    font-size: 14px;
+                }
+            }
+
+            .desc-ctn {
+                color: #e43122;
+                font-size: 28px;
+                width: calc(100% - 200px);
+                padding: 0 20px;
+
+                .title {
+                    margin-bottom: 10px;
+                    font-size: 34px;
+                }
+            }
+        }
+
+        .content {
+            .claim {
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background: #e43122;
+                font-size: 34px;
+                padding: 20px;
+            }
+
+            .detail {
+                font-size: 30px;
+                padding: 10px;
+                color: #e43122;
+            }
+        }
+    }
+
+    .kitchen-waste {
+        .header {
+            display: flex;
+            padding: 20px;
+
+            .logo-ctn {
+                color: white;
+                font-size: 20px;
+                width: 160px;
+                height: 160px;
+                padding: 20px;
+                background: #664035;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+
+                Image {
+                    //width: 60%;
+                    //height: 60%;
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .english {
+                    font-size: 14px;
+                }
+            }
+
+            .desc-ctn {
+                color: #664035;
+                font-size: 28px;
+                width: calc(100% - 200px);
+                padding: 0 20px;
+
+                .title {
+                    margin-bottom: 10px;
+                    font-size: 34px;
+                }
+            }
+        }
+
+        .content {
+            .claim {
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background: #664035;
+                font-size: 34px;
+                padding: 20px;
+            }
+
+            .detail {
+                font-size: 30px;
+                padding: 10px;
+                color: #664035;
+            }
+        }
+    }
+
+    .other-waste {
+        .header {
+            display: flex;
+            padding: 20px;
+
+            .logo-ctn {
+                color: white;
+                font-size: 20px;
+                width: 160px;
+                height: 160px;
+                padding: 20px;
+                background: #2c2b27;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+
+                Image {
+                    //width: 60%;
+                    //height: 60%;
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .english {
+                    font-size: 14px;
+                }
+            }
+
+            .desc-ctn {
+                color: #2c2b27;
+                font-size: 28px;
+                width: calc(100% - 200px);
+                padding: 0 20px;
+
+                .title {
+                    margin-bottom: 10px;
+                    font-size: 34px;
+                }
+            }
+        }
+
+        .content {
+            .claim {
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background: #2c2b27;
+                font-size: 34px;
+                padding: 20px;
+            }
+
+            .detail {
+                font-size: 30px;
+                padding: 10px;
+                color: #2c2b27;
+            }
+        }
+    }
+}
+
+.search {
+    height: 100%;
+
+    .empty {
+        height: 80vh;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .slogan {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        .notice {
+            text-indent: 60px;
+            line-height: 60px;
+            font-size: 32px;
+
+            .recoverable {
+                font-weight: bold;
+                color: #136ec2;
+                font-size: 40px;
+            }
+
+            .harmful-waste {
+                font-weight: bold;
+                font-size: 40px;
+                color: #e43122;
+            }
+
+            .kitchen-waste {
+                font-weight: bold;
+                color: #664035;
+                font-size: 40px;
+            }
+
+            .other-waste {
+                font-weight: bold;
+                color: #2c2b27;
+                font-size: 40px;
+            }
+        }
+    }
+
+    .no-empty {
+        .no-data {
+            display: none;
+        }
+
+        .list {
+            .item {
+                padding: 30px;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #cccccc;
+            }
+        }
+    }
+}
+
+.help {
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .logo {
+        margin-top: 5vh;
+        margin-bottom: 5px;
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .name {
+        color: #6190e8;
+        margin-bottom: 25px;
+    }
+
+    .m-button {
+        border: 1px solid #6190e8;
+        //padding: 20px;
+        background: white;
+        color: #6190e8;
+        width: 95%;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        Text{
+            margin-left: 20px;
+        }
+        &:active{
+            opacity: .5;
+        }
+    }
+}
